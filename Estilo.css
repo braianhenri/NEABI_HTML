@@ -2,7 +2,7 @@ body {
     margin: 0;
     position: relative;
     min-height: 100vh;
-    background-color: rgb(117, 69, 6);  
+    background-color: rgb(136, 130, 123);  
 }
 
 header {
@@ -15,25 +15,33 @@ header {
 
 #principal {
     display: block;
-    max-width: 100%;
+    max-width: 15%;
     height: auto;
     margin: 0 auto;
 }
 
 #quem-somos {
     position: absolute;
-    left: 200px;   /* coordenada X */
-    top: 500px;    /* coordenada Y */
+    left: 200px;
+    top: 500px;
     font-size: 100px;
     margin: 0;
     line-height: 1;
     text-align: left;
 }
 
-#paragrafo01 {
+.conteudo-paragrafo01 {
     position: absolute;
-    left: 200px; 
-    top: 650px; /* começa logo abaixo do título */
+    left: 200px;
+    top: 650px;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 1200px;
+}
+
+
+#paragrafo01 {
     width: 800px;
     margin: 0;
     font-size: 22px;
