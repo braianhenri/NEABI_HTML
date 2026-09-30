@@ -5,6 +5,14 @@ body {
     background-color: rgb(117, 69, 6);  
 }
 
+header {
+    width: 100%;
+    margin: 0;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
 #principal {
     display: block;
     max-width: 100%;
