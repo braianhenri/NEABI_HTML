@@ -1,8 +1,12 @@
+:root {
+    background-color: #ffffff;
+    padding: 80px;
+}
+
 body {
     margin: 0;
     position: relative;
-    min-height: 100vh;
-    background-color: rgb(136, 130, 123);  
+    min-height: 100vh;  
 }
 
 header {
@@ -10,7 +14,7 @@ header {
     margin: 0;
     padding: 15px 20px;
     box-sizing: border-box;
-    background-color: white;
+
 }
 
 #principal {
@@ -20,14 +24,12 @@ header {
     margin: 0 auto;
 }
 
-#quem-somos {
+#nossa-historia {
     position: absolute;
-    left: 200px;
-    top: 500px;
     font-size: 100px;
     margin: 0;
-    line-height: 1;
-    text-align: left;
+    line-height: 5;
+    text-align: start;
 }
 
 .conteudo-paragrafo01 {
